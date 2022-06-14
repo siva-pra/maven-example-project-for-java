@@ -1,6 +1,7 @@
 pipeline {
     tools{
         maven 'MAVEN_HOME'
+        jdk 'JAVA_HOME'
     }
     agent { label 'maven' }
     triggers { pollSCM('* * * * *') }
