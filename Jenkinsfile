@@ -21,4 +21,5 @@ pipeline {
                archiveArtifacts artifacts: '**/*.war', followSymlinks: false
             }
         }
-    }
+   }
+}
